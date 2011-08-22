@@ -1,0 +1,27 @@
+<!doctype html>
+<!--
+File: index.html
+
+Abstract: HTML5 Video Element Event Flow
+
+Version: 1.1
+
+-->
+<html>
+<head>
+    <title>HTML5 Media Events</title>
+    <meta name="viewport" content="width=500" />
+    <link rel="stylesheet" href="events.css" type="text/css" />
+    <script src="events.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body onload="addListeners(document.getElementById('myVideo'));">
+  
+    <video src="last-time-race-start.mp4" id="myVideo" height="360" width="480" controls>
+        Sorry, this browser doesn't support the HTML5 video element.  Go download Safari! :)
+    </video>
+  
+    <p>Media Events (newest at the top):<span id="notes" class="off" onclick="toggleNotes()"> </span></p>
+    <p>Test Override JS Function:<span id="notes" class="off" onclick="testOverride()"> </span></p>
+    <div id="eventslog"></div>
+</body>
+</html>

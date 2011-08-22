@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8A800CC140256E0000952A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A800CB140256E0000952A4 /* UIKit.framework */; };
+		A8A800CE140256E0000952A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A800CD140256E0000952A4 /* Foundation.framework */; };
+		A8A800D0140256E0000952A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A800CF140256E0000952A4 /* CoreGraphics.framework */; };
+		A8A800D6140256E0000952A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8A800D4140256E0000952A4 /* InfoPlist.strings */; };
+		A8A800D9140256E0000952A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A800D8140256E0000952A4 /* main.m */; };
+		A8A800DC140256E0000952A4 /* TestJSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A800DB140256E0000952A4 /* TestJSAppDelegate.m */; };
+		A8A800DF140256E0000952A4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8A800DD140256E0000952A4 /* MainWindow.xib */; };
+		A8A800E2140256E0000952A4 /* TestJSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A800E1140256E0000952A4 /* TestJSViewController.m */; };
+		A8A800E5140256E0000952A4 /* TestJSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8A800E3140256E0000952A4 /* TestJSViewController.xib */; };
+		A8A800EC140257A4000952A4 /* HTML5VideoEventFlow in Resources */ = {isa = PBXBuildFile; fileRef = A8A800EB140257A4000952A4 /* HTML5VideoEventFlow */; };
+		A8A800EE1402595B000952A4 /* script.js in Sources */ = {isa = PBXBuildFile; fileRef = A8A800ED1402595B000952A4 /* script.js */; };
+		A8A800F614025C7A000952A4 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = A8A800ED1402595B000952A4 /* script.js */; };
+		A8A800FC140270E7000952A4 /* README in Resources */ = {isa = PBXBuildFile; fileRef = A8A800FB140270E7000952A4 /* README */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8A800C7140256E0000952A4 /* TestJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A800CB140256E0000952A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8A800CD140256E0000952A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8A800CF140256E0000952A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8A800D3140256E0000952A4 /* TestJS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestJS-Info.plist"; sourceTree = "<group>"; };
+		A8A800D5140256E0000952A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8A800D7140256E0000952A4 /* TestJS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestJS-Prefix.pch"; sourceTree = "<group>"; };
+		A8A800D8140256E0000952A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8A800DA140256E0000952A4 /* TestJSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestJSAppDelegate.h; sourceTree = "<group>"; };
+		A8A800DB140256E0000952A4 /* TestJSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestJSAppDelegate.m; sourceTree = "<group>"; };
+		A8A800DE140256E0000952A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A8A800E0140256E0000952A4 /* TestJSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestJSViewController.h; sourceTree = "<group>"; };
+		A8A800E1140256E0000952A4 /* TestJSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestJSViewController.m; sourceTree = "<group>"; };
+		A8A800E4140256E0000952A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestJSViewController.xib; sourceTree = "<group>"; };
+		A8A800EB140257A4000952A4 /* HTML5VideoEventFlow */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTML5VideoEventFlow; sourceTree = SOURCE_ROOT; };
+		A8A800ED1402595B000952A4 /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		A8A800FB140270E7000952A4 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8A800C4140256E0000952A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A800CC140256E0000952A4 /* UIKit.framework in Frameworks */,
+				A8A800CE140256E0000952A4 /* Foundation.framework in Frameworks */,
+				A8A800D0140256E0000952A4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8A800BC140256E0000952A4 = {
+			isa = PBXGroup;
+			children = (
+				A8A800FB140270E7000952A4 /* README */,
+				A8A800D1140256E0000952A4 /* TestJS */,
+				A8A800CA140256E0000952A4 /* Frameworks */,
+				A8A800C8140256E0000952A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8A800C8140256E0000952A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8A800C7140256E0000952A4 /* TestJS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8A800CA140256E0000952A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8A800CB140256E0000952A4 /* UIKit.framework */,
+				A8A800CD140256E0000952A4 /* Foundation.framework */,
+				A8A800CF140256E0000952A4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8A800D1140256E0000952A4 /* TestJS */ = {
+			isa = PBXGroup;
+			children = (
+				A8A800EB140257A4000952A4 /* HTML5VideoEventFlow */,
+				A8A800DA140256E0000952A4 /* TestJSAppDelegate.h */,
+				A8A800DB140256E0000952A4 /* TestJSAppDelegate.m */,
+				A8A800DD140256E0000952A4 /* MainWindow.xib */,
+				A8A800E0140256E0000952A4 /* TestJSViewController.h */,
+				A8A800E1140256E0000952A4 /* TestJSViewController.m */,
+				A8A800E3140256E0000952A4 /* TestJSViewController.xib */,
+				A8A800D2140256E0000952A4 /* Supporting Files */,
+			);
+			path = TestJS;
+			sourceTree = "<group>";
+		};
+		A8A800D2140256E0000952A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8A800D3140256E0000952A4 /* TestJS-Info.plist */,
+				A8A800D4140256E0000952A4 /* InfoPlist.strings */,
+				A8A800D7140256E0000952A4 /* TestJS-Prefix.pch */,
+				A8A800D8140256E0000952A4 /* main.m */,
+				A8A800ED1402595B000952A4 /* script.js */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8A800C6140256E0000952A4 /* TestJS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8A800E8140256E0000952A4 /* Build configuration list for PBXNativeTarget "TestJS" */;
+			buildPhases = (
+				A8A800C3140256E0000952A4 /* Sources */,
+				A8A800C4140256E0000952A4 /* Frameworks */,
+				A8A800C5140256E0000952A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestJS;
+			productName = TestJS;
+			productReference = A8A800C7140256E0000952A4 /* TestJS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8A800BE140256E0000952A4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A8A800C1140256E0000952A4 /* Build configuration list for PBXProject "TestJS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8A800BC140256E0000952A4;
+			productRefGroup = A8A800C8140256E0000952A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8A800C6140256E0000952A4 /* TestJS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8A800C5140256E0000952A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A800F614025C7A000952A4 /* script.js in Resources */,
+				A8A800D6140256E0000952A4 /* InfoPlist.strings in Resources */,
+				A8A800DF140256E0000952A4 /* MainWindow.xib in Resources */,
+				A8A800E5140256E0000952A4 /* TestJSViewController.xib in Resources */,
+				A8A800EC140257A4000952A4 /* HTML5VideoEventFlow in Resources */,
+				A8A800FC140270E7000952A4 /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8A800C3140256E0000952A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A800D9140256E0000952A4 /* main.m in Sources */,
+				A8A800DC140256E0000952A4 /* TestJSAppDelegate.m in Sources */,
+				A8A800E2140256E0000952A4 /* TestJSViewController.m in Sources */,
+				A8A800EE1402595B000952A4 /* script.js in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8A800D4140256E0000952A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8A800D5140256E0000952A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8A800DD140256E0000952A4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8A800DE140256E0000952A4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A8A800E3140256E0000952A4 /* TestJSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8A800E4140256E0000952A4 /* en */,
+			);
+			name = TestJSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8A800E6140256E0000952A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A8A800E7140256E0000952A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		A8A800E9140256E0000952A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestJS/TestJS-Prefix.pch";
+				INFOPLIST_FILE = "TestJS/TestJS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8A800EA140256E0000952A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestJS/TestJS-Prefix.pch";
+				INFOPLIST_FILE = "TestJS/TestJS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8A800C1140256E0000952A4 /* Build configuration list for PBXProject "TestJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A800E6140256E0000952A4 /* Debug */,
+				A8A800E7140256E0000952A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8A800E8140256E0000952A4 /* Build configuration list for PBXNativeTarget "TestJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A800E9140256E0000952A4 /* Debug */,
+				A8A800EA140256E0000952A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8A800BE140256E0000952A4 /* Project object */;
+}
